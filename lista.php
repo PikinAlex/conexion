@@ -1,5 +1,15 @@
 <?php
-include 'dbconfig.php';
+//Define your host here.
+$HostName = "localhost";
+ 
+//Define your database name here.
+$DatabaseName = "catalago_peliculas";
+ 
+//Define your database username here.
+$HostUser = "root";
+ 
+//Define your database password here.
+$HostPass = "";
  
 // Create connection
 $conn = new mysqli($HostName, $HostUser, $HostPass, $DatabaseName);
